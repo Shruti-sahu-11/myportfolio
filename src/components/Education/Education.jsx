@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section
     id='education'
-    className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2'
+    className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[8vw] font-sans bg-skills-gradient clip-path-custom-2'
     >
       {/* section title */}
       <div className='text-center mb-16'>
@@ -31,7 +31,7 @@ const Education = () => {
           >
 
             {/* Timeline circle */}
-            <div className='absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:h-16 rounded-full flex justify-center'>
+            <div className='absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10'>
               <img 
               src={edu.image}
               alt={edu.school} 
