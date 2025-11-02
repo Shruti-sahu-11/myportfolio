@@ -33,8 +33,8 @@ import buzzbuyLogo from './assets/buzzbuy-logo.png';
 import todoLogo from './assets/todo-logo.png';
 {/* Education logos */}
 import lnctLogo from './assets/lnct.jpg';
-import mcbuLogo from './assets/mcbu.JPEG';
-import takshshilaLogo from './assets/takshshila.JPEG';
+import mcbuLogo from './assets/mcbu.jpeg';
+import takshshilaLogo from './assets/takshshila.jpeg';
 
 export const SkillsInfo = [
     {
