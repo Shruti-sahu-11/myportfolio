@@ -21,7 +21,7 @@ import figmaLogo from './assets/figma.png';
 import jupyterLogo from './assets/jupyter.png';
 {/* Soft skills */}
 import clearcommuLogo from './assets/clearcommu.png';
-import teamworkLogo from './assets/teamwork.WEBP';
+import teamworkLogo from './assets/teamwork.webp';
 import timeLogo from './assets/time.png';
 import conflictLogo from './assets/conflict.png';
 import analyticalLogo from './assets/analytical.png';
