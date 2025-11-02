@@ -7,6 +7,7 @@ import reactjsLogo from './assets/react.png';
 import reduxLogo from './assets/redux.png';
 import tailwindLogo from './assets/tailwind.png';
 import bootstrapLogo from './assets/bootstrap.png';
+import typescriptLogo from './assets/typescript.png';
 {/* Logo for languages */}
 import cLogo from './assets/c.png';
 import cppLogo from './assets/cpp.png';
@@ -56,6 +57,7 @@ export const SkillsInfo = [
             { name: 'python', logo: pythonLogo},
             { name: 'R', logo: rLogo},
             { name: 'Javascript', logo: javascriptLogo},
+            { name: 'TypeScript', logo: typescriptLogo},
         ]
     },
     {

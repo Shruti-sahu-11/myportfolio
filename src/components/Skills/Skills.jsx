@@ -11,7 +11,7 @@ const Skills = () => {
       {/* Section title */}
       <div className='text-center mb-8'>
         <h2 className='text-3xl sm:text-4xl font-bold text-white '>SKILLS</h2>
-        <div className='w-24 h-1 bg-[#8245ec] mx-auto mt-2'>
+        <div className='w-24 h-1 bg-[#8245ec] mx-auto mt-4 mb-2'>
         </div>
         <a className='text-gray-400 mt-4 text-lg font-semibold'>A collection of my technical skills and expertise honed thorgh various projects and experiences</a>
       </div>
@@ -36,7 +36,8 @@ const Skills = () => {
           transitionSpeed={1000}
           gyroscope={true}
           >
-            <div className='grid grid-cols-2 sm:grid-cols-3 gap-3 w-ful'>
+            <div className="w-full max-w-full overflow-hidden">
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3 w-full md:w-[50%] lg:w-[80%] xl:w-full'>
               {category.skills.map((skill) => (
                 <div
                 key={skill.name} 
@@ -45,7 +46,7 @@ const Skills = () => {
                   <img
                   src={skill.logo}
                   alt={`${skill.name} logo`}
-                  className='w-6 h-6 sm:w-8 sm:h-8'
+                  className='w-3 h-3 sm:w-4 sm:h-4 md:w-6 md:h-6 lg:w-8 lg:h-8'
                   />
                   <span className='text-xs sm:text-sm text-gray-300'>
                     {skill.name}
@@ -53,6 +54,7 @@ const Skills = () => {
                 </div>
               ))}
 
+            </div>
             </div>
             </Tilt>
           </div>

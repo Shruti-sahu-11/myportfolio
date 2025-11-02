@@ -54,7 +54,7 @@ const About = () => {
             I am a motivated Frontend Developer with hands-on experience in ReactJS, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy building responsive, user-friendly, and modern web applications, and I’ve worked on projects like a Blinkit Clone and a Food Ordering Web Page.I am eager to learn emerging frontend technologies, improve my problem-solving skills, and contribute to impactful projects as I grow in my career as a React Developer.
           </p>
           { /* Resume button */}
-          <a href='https://drive.google.com/file/d/1KgWwp9WHjKUmCANhUDtPaibmuxvq4wif/view' 
+          <a href='https://drive.google.com/file/d/1QKgH2AKzoZnpw7ZGvG_yvh7na8TEGVkr/view' 
           target='_blank'
           rel='noopener noreferrer'
           className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform:hover:scale-105'
