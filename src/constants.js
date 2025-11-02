@@ -29,6 +29,7 @@ import problemLogo from './assets/problem.png';
 import blinkitLogo from './assets/blinkit-logo.png';
 import flavoroLogo from './assets/flavoro-logo.png';
 import buzzbuyLogo from './assets/buzzbuy-logo.png';
+import todoLogo from './assets/todo-logo.png';
 {/* Education logos */}
 import lnctLogo from './assets/lnct.jpg';
 import mcbuLogo from './assets/mcbu.JPEG';
@@ -108,6 +109,14 @@ export const projects = [
         github: "https://github.com/Shruti-sahu-11/BuzzBuy-website",
 
     },
+    {
+        id: 3,
+        title: "Todo TypeScript, React App",
+        description: "A responsive task manager demonstrating advanced front-end skills. Built with React, TypeScript, and shadcn/ui for a clean and type-safe UI. Features add/edit/delete tasks and completion toggles with persistent state and reusable components.",
+        image: todoLogo,
+        tags: ["React.js", "TypeScript", "Redux Toolkit", "shadcn/ui", "Tailwind CSS", "Vite", "VS Code", "GitHub"],
+        github: "https://github.com/Shruti-sahu-11/Todo-ts-react-",
+    }
 ]
 
 {/* Education data */}
